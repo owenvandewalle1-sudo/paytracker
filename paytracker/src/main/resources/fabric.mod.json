@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "paytracker",
+  "version": "${version}",
+  "name": "Pay Tracker",
+  "description": "Colors /pay messages and shows your profit from payments at the top of the screen. Client-side only.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.paytracker.PayTracker"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
